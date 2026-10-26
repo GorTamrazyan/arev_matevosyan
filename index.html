@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Վարսահարդարի պորտֆոլիո</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&family=Playfair+Display:ital,wght@0,500;0,600;1,500&family=Noto+Sans+Armenian:wght@300;400;500&family=Noto+Serif+Armenian:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page">
+
+  <!-- NAV -->
+  <header class="header">
+    <a href="#home" class="nav-link logo">
+      <span class="logo-name">LIA</span>
+      <span class="logo-sub">HAIR ARTISTRY</span>
+    </a>
+    <nav class="nav">
+      <a href="#home" class="nav-link" data-i18n="nav.home">Գլխավոր</a>
+      <a href="#about" class="nav-link" data-i18n="nav.about">Իմ մասին</a>
+      <a href="#work" class="nav-link" data-i18n="nav.work">Աշխատանքներ</a>
+      <a href="#prices" class="nav-link" data-i18n="nav.prices">Գներ</a>
+      <a href="#contact" class="nav-link" data-i18n="nav.contact">Կոնտակտներ</a>
+    </nav>
+    <div class="header-actions">
+      <div class="lang-switch" role="group" aria-label="Language">
+        <button type="button" class="lang-btn" data-lang="hy">ՀԱՅ</button>
+        <button type="button" class="lang-btn" data-lang="ru">РУС</button>
+        <button type="button" class="lang-btn" data-lang="en">ENG</button>
+      </div>
+      <a href="#contact" class="btn-ghost btn-header" data-i18n="nav.book">Գրանցվել →</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="section hero">
+    <div class="hero-row">
+      <div class="hero-text">
+        <div class="eyebrow-row">
+          <span class="eyebrow-line" aria-hidden="true"></span>
+          <span class="eyebrow" data-i18n="hero.eyebrow">Սանրվածքներ · Ներկում · Հարդարում</span>
+        </div>
+        <h1 class="hero-title" data-i18n="hero.title">Ստեղծում եմ<br>կերպարներ,<br>որոնք <em>հիշվում են</em></h1>
+        <p class="hero-lead" data-i18n="hero.lead">Վարսահարդար-վարպետ Երևանում։ Օգնում եմ զգալ վստահություն սանրվածքի, ներկման և հարդարման միջոցով՝ ուշադրություն դարձնելով մազերի կառուցվածքին և ձեր ոճին։</p>
+        <div class="btn-row">
+          <a href="#work" class="btn-primary"><span data-i18n="hero.btnWork">Դիտել աշխատանքները</span> <span aria-hidden="true">→</span></a>
+          <a href="#prices" class="btn-ghost btn-lg" data-i18n="hero.btnPrices">Ծառայությունների գներ</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-glow" aria-hidden="true"></div>
+
+        <div class="hero-photo">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--ink-faint)" stroke-width="1.3" aria-hidden="true"><circle cx="6" cy="6" r="2.4"></circle><circle cx="6" cy="18" r="2.4"></circle><line x1="20" y1="4" x2="8.5" y2="16"></line><line x1="8.5" y1="8" x2="20" y2="20"></line><line x1="7.6" y1="12" x2="10" y2="12"></line></svg>
+          <span class="hero-photo-label" data-i18n="hero.photo">[Վարպետի լուսանկար]</span>
+        </div>
+
+        <div class="badge spin" aria-hidden="true">
+          <svg viewBox="0 0 160 160" width="118" height="118">
+            <defs><path id="badgePath" d="M80,80 m-62,0 a62,62 0 1,1 124,0 a62,62 0 1,1 -124,0"></path></defs>
+            <circle cx="80" cy="80" r="62" fill="rgba(42,13,19,0.9)" stroke="var(--line)"></circle>
+            <text font-size="9.4" letter-spacing="2.4" fill="var(--accent-soft)">
+              <textPath href="#badgePath" startOffset="0%" data-i18n="hero.badge">ՍԻՐՈՎ ԵՎ ՈՒՇԱԴՐՈՒԹՅԱՄԲ · ՍՏԵՂԾՈՒՄ ԵՄ ԿԵՐՊԱՐ · </textPath>
+            </text>
+          </svg>
+        </div>
+
+        <div class="exp-card">
+          <div class="exp-num">7+</div>
+          <div class="exp-label" data-i18n="hero.exp">տարվա փորձ</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="about-row">
+      <div class="about-text">
+        <div class="eyebrow-row mb-18">
+          <span class="eyebrow" data-i18n="about.eyebrow">Իմ մասին</span>
+          <span class="arrow" aria-hidden="true">⟶</span>
+        </div>
+        <h2 class="h2 about-title" data-i18n="about.title">Տեխնիկան հանդիպում է<br><em>ստեղծագործությանը։</em></h2>
+        <p class="about-lead" data-i18n="about.lead">Ես վարսահարդար-վարպետ եմ, ստեղծում եմ կերպարներ, որոնք ընդգծում են անհատականությունը և հեշտությամբ պահպանում են ձևը առօրյայում։ Աշխատում եմ ցանկացած բարդության ներկման, սանրվածքների և հարդարումների հետ։</p>
+        <a href="#contact" class="btn-ghost btn-md"><span data-i18n="about.btn">Ավելին իմ մասին</span> <span aria-hidden="true">→</span></a>
+      </div>
+
+      <div class="stats">
+        <div class="card stat">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--accent-soft)" stroke-width="1.4" aria-hidden="true"><path d="M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8"></path></svg>
+          <div class="stat-num">7+</div>
+          <div class="stat-label" data-i18n="about.stat1">տարվա փորձ<br>ոլորտում</div>
+        </div>
+        <div class="card stat">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--accent-soft)" stroke-width="1.4" aria-hidden="true"><path d="M20 21a8 8 0 1 0-16 0"></path><circle cx="12" cy="8" r="4.2"></circle></svg>
+          <div class="stat-num">500+</div>
+          <div class="stat-label" data-i18n="about.stat2">գոհ<br>հաճախորդ</div>
+        </div>
+        <div class="card stat">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--accent-soft)" stroke-width="1.4" aria-hidden="true"><path d="M6 3v11a3 3 0 0 0 3 3h0M6 3a3 3 0 0 1 3 3v2M18 3v6a3 3 0 0 1-3 3h0M12 17v4"></path></svg>
+          <div class="stat-title" data-i18n="about.stat3Title">Ներկում<br>և սանրվածքներ</div>
+          <div class="stat-label" data-i18n="about.stat3">հիմնական մասնագիտացում</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK / PORTFOLIO -->
+  <section id="work" class="section">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow-row mb-14">
+          <span class="eyebrow" data-i18n="work.eyebrow">Ընտրված աշխատանքներ</span>
+          <span class="arrow" aria-hidden="true">⟶</span>
+        </div>
+        <h2 class="h2 h2-sm" data-i18n="work.title">Պորտֆոլիո</h2>
+      </div>
+      <a href="#prices" class="btn-ghost btn-sm" data-i18n="work.all">Բոլոր աշխատանքները →</a>
+    </div>
+
+    <div class="work-grid">
+      <div class="work-card">
+        <div class="work-photo"><span class="placeholder" data-i18n="common.photo">[Լուսանկար]</span></div>
+        <div class="work-info">
+          <div class="work-name" data-i18n="work.w1">Բալայաժ մուգ մազերի վրա</div>
+          <div class="work-cat" data-i18n="cat.color">Ներկում</div>
+        </div>
+      </div>
+      <div class="work-card">
+        <div class="work-photo"><span class="placeholder" data-i18n="common.photo">[Լուսանկար]</span></div>
+        <div class="work-info">
+          <div class="work-name" data-i18n="work.w2">Երեկոյան հարդարում գանգուրներով</div>
+          <div class="work-cat" data-i18n="cat.styling">Հարդարում</div>
+        </div>
+      </div>
+      <div class="work-card">
+        <div class="work-photo"><span class="placeholder" data-i18n="common.photo">[Լուսանկար]</span></div>
+        <div class="work-info">
+          <div class="work-name" data-i18n="work.w3">Կանացի սանրվածք «կասկադ»</div>
+          <div class="work-cat" data-i18n="cat.cut">Սանրվածք</div>
+        </div>
+      </div>
+      <div class="work-card">
+        <div class="work-photo"><span class="placeholder" data-i18n="common.photo">[Լուսանկար]</span></div>
+        <div class="work-info">
+          <div class="work-name" data-i18n="work.w4">Հարսանեկան սանրվածք</div>
+          <div class="work-cat" data-i18n="cat.event">Տոնական կերպար</div>
+        </div>
+      </div>
+      <div class="work-card">
+        <div class="work-photo"><span class="placeholder" data-i18n="common.photo">[Լուսանկար]</span></div>
+        <div class="work-info">
+          <div class="work-name" data-i18n="work.w5">Մոխրագույն բլոնդ գունավորում</div>
+          <div class="work-cat" data-i18n="cat.color">Ներկում</div>
+        </div>
+      </div>
+      <div class="work-card">
+        <div class="work-photo"><span class="placeholder" data-i18n="common.photo">[Լուսանկար]</span></div>
+        <div class="work-info">
+          <div class="work-name" data-i18n="work.w6">Կարճ սանրվածք «պիքսի»</div>
+          <div class="work-cat" data-i18n="cat.cut">Սանրվածք</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="section">
+    <div class="eyebrow-row mb-38">
+      <span class="eyebrow" data-i18n="process.eyebrow">Ինչպես է անցնում այցը</span>
+      <span class="arrow" aria-hidden="true">⟶</span>
+    </div>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">01</div>
+        <div class="step-title" data-i18n="process.s1">Խորհրդատվություն</div>
+        <p class="step-text" data-i18n="process.s1Text">Քննարկում ենք ցանկությունները և ընտրում համապատասխան կերպարը</p>
+      </div>
+      <div class="step">
+        <div class="step-num">02</div>
+        <div class="step-title" data-i18n="process.s2">Ախտորոշում</div>
+        <p class="step-text" data-i18n="process.s2Text">Գնահատում եմ մազերի կառուցվածքն ու վիճակը</p>
+      </div>
+      <div class="step">
+        <div class="step-num">03</div>
+        <div class="step-title" data-i18n="process.s3">Տեխնիկայի ընտրություն</div>
+        <p class="step-text" data-i18n="process.s3Text">Ընտրում եմ ներկման կամ սանրվածքի տեխնիկան</p>
+      </div>
+      <div class="step">
+        <div class="step-num">04</div>
+        <div class="step-title" data-i18n="process.s4">Կատարում</div>
+        <p class="step-text" data-i18n="process.s4Text">Իրականացնում եմ կերպարը՝ ուշադրություն դարձնելով մանրուքներին</p>
+      </div>
+      <div class="step">
+        <div class="step-num">05</div>
+        <div class="step-title" data-i18n="process.s5">Արդյունք</div>
+        <p class="step-text" data-i18n="process.s5Text">Հարդարում և տնային խնամքի խորհուրդներ</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICES -->
+  <section id="prices" class="section">
+    <div class="eyebrow-row mb-10">
+      <span class="eyebrow" data-i18n="prices.eyebrow">Գնացուցակ</span>
+      <span class="arrow" aria-hidden="true">⟶</span>
+    </div>
+    <h2 class="h2 h2-sm prices-title" data-i18n="prices.title">Ծառայությունների գներ</h2>
+
+    <div class="price-grid">
+      <div class="card price-card">
+        <div class="price-cat" data-i18n="prices.cuts">Սանրվածքներ</div>
+        <div class="price-row"><span data-i18n="prices.cutWomen">Կանացի սանրվածք</span><span class="price" data-i18n="prices.from">սկսած [ԳԻՆ] ֏</span></div>
+        <div class="price-row"><span data-i18n="prices.cutMen">Տղամարդու սանրվածք</span><span class="price" data-i18n="prices.from">սկսած [ԳԻՆ] ֏</span></div>
+        <div class="price-row"><span data-i18n="prices.cutKids">Մանկական սանրվածք</span><span class="price" data-i18n="prices.from">սկսած [ԳԻՆ] ֏</span></div>
+      </div>
+
+      <div class="card price-card">
+        <div class="price-cat" data-i18n="cat.color">Ներկում</div>
+        <div class="price-row"><span data-i18n="prices.colorOne">Միագույն ներկում</span><span class="price" data-i18n="prices.from">սկսած [ԳԻՆ] ֏</span></div>
+        <div class="price-row"><span data-i18n="prices.balayage">Բալայաժ / օմբրե</span><span class="price" data-i18n="prices.from">սկսած [ԳԻՆ] ֏</span></div>
+        <div class="price-row"><span data-i18n="prices.highlights">Մելիրովկա</span><span class="price" data-i18n="prices.from">սկսած [ԳԻՆ] ֏</span></div>
+      </div>
+
+      <div class="card price-card">
+        <div class="price-cat" data-i18n="prices.styling">Հարդարում և ոճ</div>
+        <div class="price-row"><span data-i18n="prices.blowdry">Հարդարում ֆենով</span><span class="price" data-i18n="prices.from">սկսած [ԳԻՆ] ֏</span></div>
+        <div class="price-row"><span data-i18n="prices.evening">Երեկոյան հարդարում</span><span class="price" data-i18n="prices.from">սկսած [ԳԻՆ] ֏</span></div>
+        <div class="price-row"><span data-i18n="prices.wedding">Հարսանեկան կերպար</span><span class="price" data-i18n="prices.from">սկսած [ԳԻՆ] ֏</span></div>
+      </div>
+
+      <div class="card price-card">
+        <div class="price-cat" data-i18n="prices.care">Խնամք</div>
+        <div class="price-row"><span data-i18n="prices.keratin">Կերատինային վերականգնում</span><span class="price" data-i18n="prices.from">սկսած [ԳԻՆ] ֏</span></div>
+        <div class="price-row"><span data-i18n="prices.botox">Բոտոքս մազերի համար</span><span class="price" data-i18n="prices.from">սկսած [ԳԻՆ] ֏</span></div>
+      </div>
+    </div>
+    <p class="price-note" data-i18n="prices.note">Ճշգրիտ արժեքը կախված է մազերի երկարությունից և խտությունից և որոշվում է խորհրդատվության ժամանակ։</p>
+  </section>
+
+  <!-- TRANSFORMATIONS -->
+  <section class="section">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow-row mb-14">
+          <span class="eyebrow" data-i18n="ba.eyebrow">Փոխակերպումներ</span>
+          <span class="arrow" aria-hidden="true">⟶</span>
+        </div>
+        <h2 class="h2 h2-sm" data-i18n="ba.title">Մինչև և հետո</h2>
+      </div>
+    </div>
+
+    <div class="ba-grid">
+      <div class="card ba-card">
+        <div class="ba-photo"><span class="placeholder" data-i18n="ba.photo">[Լուսանկար՝ մինչև / հետո]</span></div>
+        <div class="ba-info">
+          <div class="ba-title" data-i18n="ba.t1">Մուգից՝ կարամելային բալայաժ</div>
+          <p class="ba-text" data-i18n="ba.t1Text">Գույնի մեղմ անցում՝ առանց մազերի կառուցվածքին վնասելու</p>
+        </div>
+      </div>
+      <div class="card ba-card">
+        <div class="ba-photo"><span class="placeholder" data-i18n="ba.photo">[Լուսանկար՝ մինչև / հետո]</span></div>
+        <div class="ba-info">
+          <div class="ba-title" data-i18n="ba.t2">Հարսանեկան կերպար՝ փափուկ գանգուրներով</div>
+          <p class="ba-text" data-i18n="ba.t2Text">Հարդարում և փայլ, որոնք պահպանվում են ամբողջ երեկո</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / FOOTER -->
+  <footer id="contact" class="footer">
+    <svg class="footer-deco" width="240" height="240" viewBox="0 0 240 240" aria-hidden="true">
+      <g fill="none" stroke="var(--accent-soft)" stroke-width="1">
+        <circle cx="120" cy="120" r="30" opacity="0.5"></circle>
+        <circle cx="120" cy="70" r="30" opacity="0.4"></circle>
+        <circle cx="166" cy="95" r="30" opacity="0.4"></circle>
+        <circle cx="166" cy="145" r="30" opacity="0.4"></circle>
+        <circle cx="120" cy="170" r="30" opacity="0.4"></circle>
+        <circle cx="74" cy="145" r="30" opacity="0.4"></circle>
+        <circle cx="74" cy="95" r="30" opacity="0.4"></circle>
+      </g>
+    </svg>
+
+    <div class="footer-row">
+      <div class="footer-cta">
+        <div class="eyebrow-row mb-18">
+          <span class="eyebrow" data-i18n="contact.eyebrow">Եկեք ծանոթանանք</span>
+        </div>
+        <h2 class="h2 footer-title" data-i18n="contact.title">Պատրա՞ստ եք <em>փոփոխությունների</em></h2>
+        <p class="footer-lead" data-i18n="contact.lead">Գրանցվեք խորհրդատվության՝ միասին կընտրենք կերպար, որը կընդգծի ձեր անհատականությունը։</p>
+        <a href="#contact" class="btn-primary"><span data-i18n="contact.btn">Գրանցվել խորհրդատվության</span> <span aria-hidden="true">→</span></a>
+      </div>
+
+      <div class="contacts">
+        <a href="mailto:hello@liahair.am" class="nav-link contact-item">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent-soft)" stroke-width="1.5" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m3 7 9 6 9-6"></path></svg>
+          hello@liahair.am
+        </a>
+        <a href="#" class="nav-link contact-item">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent-soft)" stroke-width="1.5" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="5"></rect><circle cx="12" cy="12" r="3.6"></circle><circle cx="16.6" cy="7.4" r="0.6" fill="var(--accent-soft)" stroke="none"></circle></svg>
+          @lia.hair
+        </a>
+        <div class="contact-item">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent-soft)" stroke-width="1.5" aria-hidden="true"><path d="M12 21s-7-6.3-7-11.5A7 7 0 0 1 19 9.5C19 14.7 12 21 12 21Z"></path><circle cx="12" cy="9.5" r="2.4"></circle></svg>
+          <span data-i18n="contact.city">Երևան, Հայաստան</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span data-i18n="footer.rights">© 2026 LIA HAIR. Բոլոր իրավունքները պաշտպանված են։</span>
+      <div class="footer-links">
+        <a href="#" class="nav-link" data-i18n="footer.privacy">Գաղտնիության քաղաքականություն</a>
+        <a href="#" class="nav-link" data-i18n="footer.terms">Օգտագործման պայմաններ</a>
+      </div>
+    </div>
+  </footer>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
